@@ -38,7 +38,7 @@ else
     echo "Welcome back, ${USER_ARRAY[0]}! You have played ${USER_ARRAY[1]} games, and your best game took ${USER_ARRAY[2]} guesses."
 fi
 
-# ---- RANDOM NUMBER && NUMBER OF GUESSES
+# ---
 GUESS_NUMBER=$((RANDOM % 1000 + 1))
 GUESS_COUNT=1
 
